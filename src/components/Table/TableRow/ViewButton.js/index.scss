@@ -1,0 +1,37 @@
+.view-button {
+  background: transparent;
+  border: 1px solid black;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.modal {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+}
+.modal-popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  position: absolute;
+  top: 30vh;
+  left: 30vw;
+  width: 40vw;
+  height: 40vh;
+  border-radius: 8px;
+}
+
+.modal-popup-name {
+  font-weight: bolder;
+}
+
+.modal-popup-image {
+  border-radius: 8px;
+}

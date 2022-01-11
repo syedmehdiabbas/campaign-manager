@@ -1,0 +1,44 @@
+export const eventsData = [
+  {
+    id: 1,
+    name: "Movie",
+    country: "IND",
+    pic: "https://lh3.googleusercontent.com/fife/AAWUweUDYdGht4Nn-iCsdZga0_4qSa34OgBeCgIgc7Cc5FwNSIM3Lk9U-pCzew0o_BYQpHWZAitcUeWCbJ5-3iGLMPHkySh7KKMH3hu-AGeJKXenQ74cK_YVbQiP14wPyEcgEmftj9y-pGnrCrutuQskk7v7pqgfkzDiCRGY-DOQKxEzwTr8JDOYKlKWIBpkQJFZJiJDW-ttyAgwkl_aLhP6jPqWIYe6UprGQoQaQbvLQOTbdWuRdInBRt0ZPcURe_RbaJhRImSm0uXOsBAQ6Ax8xlnkJjlWpis4NAwDoSYJQFz-_7QTnOebuG34Xw-Dls5iALhDOa21IvBhWcyIBlsfUsyy0HTBMMjP8hyoZhg48FeNyt8ujl3rQa8KH3hwc14cqczEq-CFFwRVRsMjW1kW5wAaEqOUdv8DEmB9i1B3Pi-XV2OdVWJ8baN7Zqig1TEG31V7jLQ86ns-R4DDdnwT6aZDq-yqeEuqtWORlML0ZtDh1fNEU3tU4tEoiAjFriKfdonV7ZksaAyK5_7cmW_n9wtAow75-ZGjAITsh8iYl6UZQByJZiFlsxiVT7RmE1HZfU3XvTdZuhXnsBodU_RCuw5S3n25s7B6k4sP4xneBAKq4tG7yLrFiI_Me4BGwSprqXBJMR2GaQEpeppOZkEm9q3YjGX8LFpuzFh01oe-wul0arBnjAHPypUQDozFCRyLe8A5s9ypLvJvajdiAphZhbbyoSePsfqt7GmvsIUgWmujRQo=s192-c",
+    date: "2022-01-10",
+  },
+  {
+    id: 2,
+    name: "Comedy Show",
+    country: "IND",
+    pic: "https://lh3.googleusercontent.com/fife/AAWUweUDYdGht4Nn-iCsdZga0_4qSa34OgBeCgIgc7Cc5FwNSIM3Lk9U-pCzew0o_BYQpHWZAitcUeWCbJ5-3iGLMPHkySh7KKMH3hu-AGeJKXenQ74cK_YVbQiP14wPyEcgEmftj9y-pGnrCrutuQskk7v7pqgfkzDiCRGY-DOQKxEzwTr8JDOYKlKWIBpkQJFZJiJDW-ttyAgwkl_aLhP6jPqWIYe6UprGQoQaQbvLQOTbdWuRdInBRt0ZPcURe_RbaJhRImSm0uXOsBAQ6Ax8xlnkJjlWpis4NAwDoSYJQFz-_7QTnOebuG34Xw-Dls5iALhDOa21IvBhWcyIBlsfUsyy0HTBMMjP8hyoZhg48FeNyt8ujl3rQa8KH3hwc14cqczEq-CFFwRVRsMjW1kW5wAaEqOUdv8DEmB9i1B3Pi-XV2OdVWJ8baN7Zqig1TEG31V7jLQ86ns-R4DDdnwT6aZDq-yqeEuqtWORlML0ZtDh1fNEU3tU4tEoiAjFriKfdonV7ZksaAyK5_7cmW_n9wtAow75-ZGjAITsh8iYl6UZQByJZiFlsxiVT7RmE1HZfU3XvTdZuhXnsBodU_RCuw5S3n25s7B6k4sP4xneBAKq4tG7yLrFiI_Me4BGwSprqXBJMR2GaQEpeppOZkEm9q3YjGX8LFpuzFh01oe-wul0arBnjAHPypUQDozFCRyLe8A5s9ypLvJvajdiAphZhbbyoSePsfqt7GmvsIUgWmujRQo=s192-c",
+    date: "2022-01-11",
+  },
+  {
+    id: 3,
+    name: "Cricket Match",
+    country: "SA",
+    pic: "https://lh3.googleusercontent.com/fife/AAWUweUDYdGht4Nn-iCsdZga0_4qSa34OgBeCgIgc7Cc5FwNSIM3Lk9U-pCzew0o_BYQpHWZAitcUeWCbJ5-3iGLMPHkySh7KKMH3hu-AGeJKXenQ74cK_YVbQiP14wPyEcgEmftj9y-pGnrCrutuQskk7v7pqgfkzDiCRGY-DOQKxEzwTr8JDOYKlKWIBpkQJFZJiJDW-ttyAgwkl_aLhP6jPqWIYe6UprGQoQaQbvLQOTbdWuRdInBRt0ZPcURe_RbaJhRImSm0uXOsBAQ6Ax8xlnkJjlWpis4NAwDoSYJQFz-_7QTnOebuG34Xw-Dls5iALhDOa21IvBhWcyIBlsfUsyy0HTBMMjP8hyoZhg48FeNyt8ujl3rQa8KH3hwc14cqczEq-CFFwRVRsMjW1kW5wAaEqOUdv8DEmB9i1B3Pi-XV2OdVWJ8baN7Zqig1TEG31V7jLQ86ns-R4DDdnwT6aZDq-yqeEuqtWORlML0ZtDh1fNEU3tU4tEoiAjFriKfdonV7ZksaAyK5_7cmW_n9wtAow75-ZGjAITsh8iYl6UZQByJZiFlsxiVT7RmE1HZfU3XvTdZuhXnsBodU_RCuw5S3n25s7B6k4sP4xneBAKq4tG7yLrFiI_Me4BGwSprqXBJMR2GaQEpeppOZkEm9q3YjGX8LFpuzFh01oe-wul0arBnjAHPypUQDozFCRyLe8A5s9ypLvJvajdiAphZhbbyoSePsfqt7GmvsIUgWmujRQo=s192-c",
+    date: "2022-01-12",
+  },
+  {
+    id: 4,
+    name: "Football Match",
+    country: "GER",
+    pic: "https://lh3.googleusercontent.com/fife/AAWUweUDYdGht4Nn-iCsdZga0_4qSa34OgBeCgIgc7Cc5FwNSIM3Lk9U-pCzew0o_BYQpHWZAitcUeWCbJ5-3iGLMPHkySh7KKMH3hu-AGeJKXenQ74cK_YVbQiP14wPyEcgEmftj9y-pGnrCrutuQskk7v7pqgfkzDiCRGY-DOQKxEzwTr8JDOYKlKWIBpkQJFZJiJDW-ttyAgwkl_aLhP6jPqWIYe6UprGQoQaQbvLQOTbdWuRdInBRt0ZPcURe_RbaJhRImSm0uXOsBAQ6Ax8xlnkJjlWpis4NAwDoSYJQFz-_7QTnOebuG34Xw-Dls5iALhDOa21IvBhWcyIBlsfUsyy0HTBMMjP8hyoZhg48FeNyt8ujl3rQa8KH3hwc14cqczEq-CFFwRVRsMjW1kW5wAaEqOUdv8DEmB9i1B3Pi-XV2OdVWJ8baN7Zqig1TEG31V7jLQ86ns-R4DDdnwT6aZDq-yqeEuqtWORlML0ZtDh1fNEU3tU4tEoiAjFriKfdonV7ZksaAyK5_7cmW_n9wtAow75-ZGjAITsh8iYl6UZQByJZiFlsxiVT7RmE1HZfU3XvTdZuhXnsBodU_RCuw5S3n25s7B6k4sP4xneBAKq4tG7yLrFiI_Me4BGwSprqXBJMR2GaQEpeppOZkEm9q3YjGX8LFpuzFh01oe-wul0arBnjAHPypUQDozFCRyLe8A5s9ypLvJvajdiAphZhbbyoSePsfqt7GmvsIUgWmujRQo=s192-c",
+    date: "2021-12-23",
+  },
+  {
+    id: 5,
+    name: "Birthday",
+    country: "IND",
+    pic: "https://lh3.googleusercontent.com/fife/AAWUweUDYdGht4Nn-iCsdZga0_4qSa34OgBeCgIgc7Cc5FwNSIM3Lk9U-pCzew0o_BYQpHWZAitcUeWCbJ5-3iGLMPHkySh7KKMH3hu-AGeJKXenQ74cK_YVbQiP14wPyEcgEmftj9y-pGnrCrutuQskk7v7pqgfkzDiCRGY-DOQKxEzwTr8JDOYKlKWIBpkQJFZJiJDW-ttyAgwkl_aLhP6jPqWIYe6UprGQoQaQbvLQOTbdWuRdInBRt0ZPcURe_RbaJhRImSm0uXOsBAQ6Ax8xlnkJjlWpis4NAwDoSYJQFz-_7QTnOebuG34Xw-Dls5iALhDOa21IvBhWcyIBlsfUsyy0HTBMMjP8hyoZhg48FeNyt8ujl3rQa8KH3hwc14cqczEq-CFFwRVRsMjW1kW5wAaEqOUdv8DEmB9i1B3Pi-XV2OdVWJ8baN7Zqig1TEG31V7jLQ86ns-R4DDdnwT6aZDq-yqeEuqtWORlML0ZtDh1fNEU3tU4tEoiAjFriKfdonV7ZksaAyK5_7cmW_n9wtAow75-ZGjAITsh8iYl6UZQByJZiFlsxiVT7RmE1HZfU3XvTdZuhXnsBodU_RCuw5S3n25s7B6k4sP4xneBAKq4tG7yLrFiI_Me4BGwSprqXBJMR2GaQEpeppOZkEm9q3YjGX8LFpuzFh01oe-wul0arBnjAHPypUQDozFCRyLe8A5s9ypLvJvajdiAphZhbbyoSePsfqt7GmvsIUgWmujRQo=s192-c",
+    date: "2022-06-28",
+  },
+  {
+    id: 6,
+    name: "Meeting",
+    country: "IND",
+    pic: "https://lh3.googleusercontent.com/fife/AAWUweUDYdGht4Nn-iCsdZga0_4qSa34OgBeCgIgc7Cc5FwNSIM3Lk9U-pCzew0o_BYQpHWZAitcUeWCbJ5-3iGLMPHkySh7KKMH3hu-AGeJKXenQ74cK_YVbQiP14wPyEcgEmftj9y-pGnrCrutuQskk7v7pqgfkzDiCRGY-DOQKxEzwTr8JDOYKlKWIBpkQJFZJiJDW-ttyAgwkl_aLhP6jPqWIYe6UprGQoQaQbvLQOTbdWuRdInBRt0ZPcURe_RbaJhRImSm0uXOsBAQ6Ax8xlnkJjlWpis4NAwDoSYJQFz-_7QTnOebuG34Xw-Dls5iALhDOa21IvBhWcyIBlsfUsyy0HTBMMjP8hyoZhg48FeNyt8ujl3rQa8KH3hwc14cqczEq-CFFwRVRsMjW1kW5wAaEqOUdv8DEmB9i1B3Pi-XV2OdVWJ8baN7Zqig1TEG31V7jLQ86ns-R4DDdnwT6aZDq-yqeEuqtWORlML0ZtDh1fNEU3tU4tEoiAjFriKfdonV7ZksaAyK5_7cmW_n9wtAow75-ZGjAITsh8iYl6UZQByJZiFlsxiVT7RmE1HZfU3XvTdZuhXnsBodU_RCuw5S3n25s7B6k4sP4xneBAKq4tG7yLrFiI_Me4BGwSprqXBJMR2GaQEpeppOZkEm9q3YjGX8LFpuzFh01oe-wul0arBnjAHPypUQDozFCRyLe8A5s9ypLvJvajdiAphZhbbyoSePsfqt7GmvsIUgWmujRQo=s192-c",
+    date: "2022-01-11",
+  },
+];
