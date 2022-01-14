@@ -2,7 +2,20 @@
   display: none;
 }
 
-input {
+.edit-date-cell {
+  padding: 0rem 2rem;
+  display: flex;
+
+  align-items: center;
+
+  svg {
+    margin-left: 2rem;
+  }
+}
+
+.edit-date-icon {
   border: none;
   background-color: transparent;
+  width: 3rem;
+  color: #144a79;
 }

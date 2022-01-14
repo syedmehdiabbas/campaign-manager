@@ -1,3 +1,29 @@
-.campaign-row {
-  margin: 0px auto;
+.campaign-cell {
+  min-width: 15rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 1rem;
+
+  div {
+    margin-left: 1rem;
+    text-align: left;
+  }
+  .campaign-row {
+    margin: 0px auto;
+    font-weight: 300;
+    font-size: 14px;
+
+    &.name {
+      font-size: 1rem;
+      color: #144a79;
+      font-weight: 600;
+    }
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
 }

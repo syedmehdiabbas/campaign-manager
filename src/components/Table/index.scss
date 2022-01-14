@@ -1,14 +1,22 @@
 .table {
   text-align: center;
   margin: 2rem;
-  padding: 1rem;
+  padding: 0rem;
   border-radius: 4px;
   box-shadow: 2px 4px 4px grey;
-  background-color: #cff;
-}
+  background-color: #e4e4e4;
 
-th {
-  padding: 0px 2rem;
+  .table-head {
+    background-color: #e4e4e4;
+    margin: 0px;
+
+    th {
+      padding: 1rem 2rem;
+      margin: 0px;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+  }
 }
 
 .no-event {

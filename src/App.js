@@ -3,13 +3,15 @@ import { eventsData } from "./data/events";
 import "./App.scss";
 import Tabs from "./components/Tabs/index.js";
 import Table from "./components/Table/index.js";
+import "./App.scss";
+import "./assets/sass/index.scss";
 import { FormattedMessage } from "react-intl";
 import { filterEventsData } from "./utils/utils";
 
 export const EventsContext = React.createContext("");
 
 function App() {
-  const [activeID, setActiveID] = useState("2");
+  const [activeID, setActiveID] = useState("3");
   const [events, setEvents] = useState(eventsData);
   const [displayEvents, setDisplayEvents] = useState([]);
 
@@ -28,7 +30,12 @@ function App() {
   return (
     <div className="app">
       <h1 className="heading">
-        <FormattedMessage id="app.heading" defaultMessage="Manage Campaigns" />
+        <span className="heading-1">
+          <FormattedMessage id="app.heading-1" defaultMessage="Manage " />
+        </span>
+        <span className="heading-2">
+          <FormattedMessage id="app.heading-2" defaultMessage="Campaigns" />
+        </span>
       </h1>
       <EventsContext.Provider value={{ events, changeEvent }}>
         <Tabs activeID={activeID} setActiveID={setActiveID}></Tabs>

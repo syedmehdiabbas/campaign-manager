@@ -2,7 +2,7 @@ export const filterEventsData = (eventsData, activeID) => {
   //let currentTime = new Date(Date.now());
   //currentTime = currentTime.toDateString();
   //console.log(currentTime);
-  let today = "2022-01-11";
+  let today = "2022-01-14";
 
   if (activeID === "1") {
     return eventsData.filter((event) => {

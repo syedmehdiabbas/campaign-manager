@@ -1,8 +1,9 @@
 {
-  "app.heading": "Manage campaigns",
-  "tab.past": "past",
-  "tab.live": "live",
-  "tab.upcoming": "upcoming",
+  "app.heading-1": "Manage ",
+  "app.heading-2": "Campaigns",
+  "tab.past": "past campaigns",
+  "tab.live": "live campaigns",
+  "tab.upcoming": "upcoming campaigns",
   "date": "Date",
   "campaign": "Campaign",
   "view": "View",

@@ -1,30 +1,18 @@
 import React, { useState } from "react";
 import { FormattedMessage } from "react-intl";
+import DollarIcon from "../../../Icons/DollarIcon/index.js";
+import Modal from "../../../Modal";
 import "./index.scss";
 function ViewButton({ event }) {
   const [isModal, setIsModal] = useState(false);
 
   if (isModal) {
     return (
-      <div
-        className="modal"
-        onClick={(e) => {
-          setIsModal(false);
-        }}>
-        <div
-          className="modal-popup"
-          onClick={(e) => {
-            e.stopPropagation();
-          }}>
-          <p className="modal-popup-name">{event.name}</p>
-          <img
-            className="modal-popup-image"
-            src="https://picsum.photos/seed/picsum/200/100"
-            alt=""
-          />
-          <p className="modal-popup-date">{event.date}</p>
-        </div>
-      </div>
+      <Modal setIsModal={setIsModal}>
+        <h3 className="modal-popup-name">{event.name}</h3>
+        <img className="modal-popup-image" src={event.pic} alt={event.name} />
+        <p className="modal-popup-date">{event.date}</p>
+      </Modal>
     );
   }
 
@@ -35,8 +23,10 @@ function ViewButton({ event }) {
           setIsModal(true);
           console.log(event);
         }}
-        className="view-button">
-        <FormattedMessage id="view" />
+        className="view-button"
+      >
+        <DollarIcon />
+        <p className="pricing-text">view pricing</p>
       </button>
     </td>
   );
