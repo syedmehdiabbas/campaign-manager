@@ -1,11 +1,21 @@
+$primary-color: #87a22c;
+$primary-text: #144a79;
+
 .app {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   min-height: 100vh;
 
   .heading {
     font-size: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    color: #144a79;
+
+    .heading-1 {
+      font-weight: 300;
+    }
   }
 }

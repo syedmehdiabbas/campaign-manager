@@ -1,8 +1,15 @@
 .view-button {
   background: transparent;
-  border: 1px solid black;
   padding: 2px 6px;
   border-radius: 4px;
+  border: none;
+}
+
+.pricing-text {
+  margin: 4px;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #144a79;
 }
 
 .modal {
@@ -21,10 +28,10 @@
   align-items: center;
   background-color: #fff;
   position: absolute;
-  top: 30vh;
-  left: 30vw;
-  width: 40vw;
-  height: 40vh;
+  top: 37.5vh;
+  left: 37.5vw;
+  width: 25vw;
+  height: 25vh;
   border-radius: 8px;
 }
 
@@ -33,5 +40,7 @@
 }
 
 .modal-popup-image {
+  height: 40px;
+  width: 40px;
   border-radius: 8px;
 }

@@ -7,11 +7,9 @@ import { FormattedMessage } from "react-intl";
 function Table({ events, activeID }) {
   if (events.length > 0)
     return (
-      <table
-        style={{ backgroundColor: ["#cff", "#fcf", "#ffc"][activeID - 1] }}
-        className="table">
+      <table className="table">
         <thead>
-          <tr>
+          <tr className="table-head">
             <th>
               <FormattedMessage id="date" />
             </th>

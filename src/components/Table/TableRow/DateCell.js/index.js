@@ -15,7 +15,7 @@ function DateCell({ date }) {
 
   //curTime.getDate() - date.getDate();
   return (
-    <td>
+    <td className="date-cell">
       <p className="date-row">{date}</p>
       {timeDiff > 0 ? (
         <p className="daysleft-row">{Math.abs(timeDiff)} days ago</p>
